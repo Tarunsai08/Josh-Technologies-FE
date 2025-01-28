@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Margherita Pizza",
+    "price": "₹190",
+    "rating": 4.7,
+    "delivery_time": "50-79 min",
+    "discount": "50%",
+    "image_url": "../../assets/images/pizza1.png",
+    "add_button": true
+  },
+  {
+    "name": "Pepperoni Pizza",
+    "price": "₹123",
+    "rating": 4.7,
+    "delivery_time": "50-79 min",
+    "discount": "",
+    "image_url": "../../assets/images/pizza2.png",
+    "add_button": true
+  },
+  {
+    "name": "BBQ Chicken Pizza",
+    "price": "₹190",
+    "rating": 4.7,
+    "delivery_time": "50-79 min",
+    "discount": "20%",
+    "image_url": "../../assets/images/pizza3.png",
+    "add_button": true
+  },
+  {
+    "name": "Veggie Pizza",
+    "price": "₹190",
+    "rating": 4.7,
+    "delivery_time": "50-79 min",
+    "discount": "",
+    "image_url": "../../assets/images/pizza4.png",
+    "add_button": true
+  },
+  {
+    "name": "Hawaiian Pizza",
+    "price": "$19",
+    "rating": 4.7,
+    "delivery_time": "50-79 min",
+    "discount": "50%",
+    "image_url": "../../assets/images/pizza5.png",
+    "add_button": true
+  },
+  {
+    "name": "Tandoori Chicken",
+    "price": "₹190",
+    "rating": 4.7,
+    "delivery_time": "50-79 min",
+    "discount": "",
+    "image_url": "../../assets/images/pizza9.png",
+    "add_button": true
+  },
+  {
+    "name": "chilli chicken",
+    "price": "₹190",
+    "rating": 4.7,
+    "delivery_time": "50-79 min",
+    "discount": "",
+    "image_url": "../../assets/images/pizza10.png",
+    "add_button": true
+  }
+
+]
