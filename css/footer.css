@@ -1,0 +1,59 @@
+.footer {
+    background-color: #1ac073;
+    /* Green background */
+    padding: 38px 0;
+    text-align: center;
+    color: white;
+}
+
+.footer__container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer__logo {
+    font-family: 'squada one', sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.footer__nav{
+    margin-bottom: 16px;
+}
+
+.footer__nav-link {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.footer__nav-link:hover {
+    color: #F3BA00;
+}
+
+.footer__social {
+    margin-bottom: 16px;
+    display: flex;
+    gap: 10px;
+}
+
+.footer__social-link {
+    width: 18px;
+    height: 16px;
+    background: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.footer__divider {
+    width: 82%;
+    margin: 10px auto;
+    border: 0.5px solid white;
+}

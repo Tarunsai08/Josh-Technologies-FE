@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Character encoding -->
+    <meta charset="UTF-8">
+
+    <!-- Viewport settings -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO meta tags -->
+    <meta name="description"
+        content="JTGeats - Authentic home-cooked food delivery service in India. Order homemade dishes prepared by passionate home chefs.">
+    <meta name="keywords" content="home food delivery, Indian food, home cooking, food delivery service">
+    <meta name="author" content="JTGeats">
+    <title>JTGeats - Authentic Home Food Delivery</title>
+
+    <!-- Preconnect to external domains -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Font loading -->
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Squada+One&display=swap" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body>
+    <!-- Main Header -->
+    <header class="header">
+        <a href="/" class="header__logo">JTGeats</a>
+
+        <!-- Main Navigation -->
+        <nav class="header__nav" aria-label="Main navigation">
+            <ul class="header__nav-list">
+                <li class="header__nav-item">
+                    <a href="#home" class="header__nav-link">Home</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="#about" class="header__nav-link">About</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="#menu" class="header__nav-link">Menu</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="#blog" class="header__nav-link">Blog</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="#contact" class="header__nav-link">Contact</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Utility Navigation -->
+        <nav class="header__nav" aria-label="Utility navigation">
+            <ul class="header__nav-list">
+                <li>
+                    <a href="#" class="header__nav-link" aria-label="Search">
+                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M21 21L16.514 16.506L21 21ZM19 10.5C19 12.7543 18.1045 14.9163 16.5104 16.5104C14.9163 18.1045 12.7543 19 10.5 19C8.24566 19 6.08365 18.1045 4.48959 16.5104C2.89553 14.9163 2 12.7543 2 10.5C2 8.24566 2.89553 6.08365 4.48959 4.48959C6.08365 2.89553 8.24566 2 10.5 2C12.7543 2 14.9163 2.89553 16.5104 4.48959C18.1045 6.08365 19 8.24566 19 10.5V10.5Z"
+                                stroke="white" stroke-width="2" stroke-linecap="round" />
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="header__cart-icon" class="header__nav-link" aria-label="Cart">
+                        <svg width="21" height="24" viewBox="0 0 21 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M2.97689 9.84C3.01712 9.33881 3.24464 8.87115 3.61417 8.53017C3.98369 8.18918 4.46808 7.9999 4.97089 8H17.0289C17.5317 7.9999 18.0161 8.18918 18.3856 8.53017C18.7551 8.87115 18.9827 9.33881 19.0229 9.84L19.8259 19.84C19.848 20.1152 19.8129 20.392 19.7227 20.6529C19.6326 20.9139 19.4894 21.1533 19.3022 21.3562C19.115 21.5592 18.8878 21.7211 18.6349 21.8319C18.382 21.9427 18.109 21.9999 17.8329 22H4.16689C3.89081 21.9999 3.61774 21.9427 3.36487 21.8319C3.112 21.7211 2.8848 21.5592 2.69759 21.3562C2.51037 21.1533 2.36719 20.9139 2.27706 20.6529C2.18693 20.392 2.1518 20.1152 2.17389 19.84L2.97689 9.84V9.84Z"
+                                stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M15 11V6C15 4.93913 14.5786 3.92172 13.8284 3.17157C13.0783 2.42143 12.0609 2 11 2C9.93913 2 8.92172 2.42143 8.17157 3.17157C7.42143 3.92172 7 4.93913 7 6V11"
+                                stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+            <div class="header__cart-overlay" id="cartOverlay">
+                <div class="header__cart-content">
+                    <svg width="198" height="225" viewBox="0 0 198 225" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_3_1259)">
+                            <path
+                                d="M28.426 92.25C28.8034 87.5513 30.9378 83.167 34.4043 79.9703C37.8707 76.7736 42.4149 74.999 47.1317 75H160.247C164.964 74.999 169.508 76.7736 172.975 79.9703C176.441 83.167 178.575 87.5513 178.953 92.25L186.486 186C186.693 188.58 186.363 191.175 185.518 193.621C184.672 196.068 183.329 198.313 181.573 200.215C179.817 202.117 177.685 203.635 175.313 204.674C172.941 205.713 170.379 206.249 167.789 206.25H39.5894C36.9995 206.249 34.4378 205.713 32.0657 204.674C29.6935 203.635 27.5622 202.117 25.8059 200.215C24.0497 198.313 22.7065 196.068 21.861 193.621C21.0155 191.175 20.686 188.58 20.8931 186L28.426 92.25V92.25Z"
+                                stroke="#EDEDED" stroke-width="28" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M141.213 103.125V56.25C141.213 46.3044 137.26 36.7661 130.223 29.7335C123.186 22.7009 113.641 18.75 103.689 18.75C93.7375 18.75 84.1932 22.7009 77.1561 29.7335C70.119 36.7661 66.1656 46.3044 66.1656 56.25V103.125"
+                                stroke="#EDEDED" stroke-width="28" stroke-linecap="round" stroke-linejoin="round" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_3_1259">
+                                <rect width="197" height="225" fill="white" transform="translate(0.5)" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+                    <div>
+                        <div>Cart is Empty</div>
+                        <p>Add some items to the cart to checkout</p>
+                    </div>
+                    <button class="header__back-btn">Back to Menu</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main">
+        <!-- Hero Section -->
+        <section class="hero" id="home" aria-labelledby="hero-title">
+            <div class="hero__content">
+                <h2 class="hero__title" id="hero-title">Authentic Home
+                    food in India</h2>
+                <pre class="hero__description">JTGeats is a courier service in which authentic home
+cook food is delivered to a customer.</pre>
+
+                <div class="hero__search" role="search" aria-label="Food search">
+                    <input type="search" id="food-search" class="hero__search-input" placeholder="Search food you love"
+                        autocomplete="off">
+                    <button type="submit" class="hero__search-btn">Search</button>
+                </div>
+            </div>
+
+            <div class="hero__image">
+                <img src="/assets/illustrations/illustration.png" alt="Illustration of cooking Food" loading="lazy">
+            </div>
+        </section>
+
+        <!-- Kitchen Section -->
+        <section class="kitchen" id="menu" aria-labelledby="kitchen-title">
+            <h2 class="kitchen__title" id="kitchen-title">Home Kitchen</h2>
+            <div class="kitchen__grid" id="kitchen-items"></div>
+        </section>
+
+        <!-- Popular Items Section -->
+        <section class="popular" id="popular" aria-labelledby="popular-title">
+            <h2 class="popular__title" id="popular-title">Popular Items</h2>
+
+            <div class="popular__carousel" role="region" aria-label="Popular items carousel">
+                <div class="popular__prev" aria-label="Previous items" id="prev">
+                    <svg class="circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120"
+                        style="transform: scaleX(-1);">
+                        <circle class="hollow" cx="60" cy="60" r="50" fill="none" stroke="#1AC073" stroke-width="5" />
+                        <polygon class="play" points="50,40 50,80 80,60" fill="#1AC073" />
+                    </svg>
+                </div>
+
+                <div class="popular__items" id="cardGroup"></div>
+
+                <div class="popular__next" aria-label="Next items" id="next">
+                    <svg class="circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+                        <circle class="hollow" cx="60" cy="60" r="50" fill="none" stroke="#1AC073" stroke-width="5" />
+                        <polygon class="play" points="50,40 50,80 80,60" fill="#1AC073" />
+                    </svg>
+                </div>
+            </div>
+
+            <button class="popular__request-btn" type="button" aria-haspopup="dialog" id="dishOpenOverlay">
+                Request a Dish
+            </button>
+        </section>
+
+        <!-- Request Dish Dialog -->
+        <div class="dialog" id="dishOverlay" aria-labelledby="dialog-title">
+            <div class="dialog__content">
+                <h2 class="dialog__title" id="dialog-title">Request a Dish</h2>
+
+                <form class="dialog__form">
+                    <div class="dialog__form-group">
+                        <label for="dish-name" class="dialog__label">Name *</label>
+                        <input type="text" id="dish-name" class="dialog__input" required aria-required="true"
+                            placeholder="Enter name of the dish">
+                    </div>
+
+                    <div class="dialog__form-group">
+                        <label for="dish-image" class="dialog__label">Upload Image URL</label>
+                        <input type="url" id="dish-image" class="dialog__input" placeholder="Paste a URL">
+                    </div>
+
+                    <div class="dialog__actions">
+                        <button type="button" class="dialog__cancel" id="dishCloseOverlay">
+                            Cancel
+                        </button>
+                        <button type="submit" class="dialog__submit">
+                            Submit Request
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- About Section -->
+        <section class="about" id="about" aria-labelledby="about-title">
+            <div class="about__top">
+                <div class="about__content">
+                    <h2 class="about__title" id="about-title">
+                        <div>We are providing the best</div> 
+                        <div>home cooked food delivery service.</div>
+                    </h2>
+                    <div class="about__description">
+                        <div>Away from home and craving tasty homemade recipes? </div>
+                        <div>Choose from a selection of our delicious home-cooked dishes.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="about__bottom">
+                <div class="about__video">
+                    <video id="foodVideo" class="about__video-player" src="/assets/videos/food.mp4">
+                    </video>
+
+                    <svg class="about__video-play" aria-label="Play video" id="playButton" viewBox="0 0 24 24">
+                        <circle cx="12" cy="12" r="12" fill="#4CAF50" />
+                        <path d="M9.5 7.5v9l7-4.5-7-4.5z" fill="white" />
+                    </svg>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact" id="contact" aria-labelledby="contact-title">
+            <div class="contact__container">
+                <div class="contact__form">
+                    <pre class="contact__title" id="contact-title">Do you have a question
+or want to become a seller?</pre>
+                    <p class="contact__subtitle">Fill the form and our manager will contact you next 48 hours.</p>
+
+                    <form class="contact__form-element">
+                        <div class="contact__form-flex">
+                            <input type="text" id="contact-name" class="contact__input" required
+                                placeholder="Your Name">
+                            <input type="email" id="contact-email" class="contact__input" required
+                                placeholder="Your e-mail">
+                        </div>
+
+                        <div class="contact__form-group">
+                            <textarea id="contact-message" class="contact__textarea" required
+                                placeholder="Your message"></textarea>
+                        </div>
+
+                        <button type="submit" class="contact__submit">Submit</button>
+                    </form>
+                </div>
+
+                <div class="contact__image">
+                    <img src="/assets/illustrations/delivery.png"
+                        alt="Cartoon illustration of a delivery person on a scooter" loading="lazy">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__container">
+            <a href="/" class="footer__logo">JTGeats</a>
+
+            <nav class="footer__nav" aria-label="Footer navigation">
+                <a href="#home" class="footer__nav-link">Home</a>
+                <a href="#about" class="footer__nav-link">About</a>
+                <a href="#menu" class="footer__nav-link">Menu</a>
+                <a href="#blog" class="footer__nav-link">Blog</a>
+                <a href="#contact" class="footer__nav-link">Contact</a>
+            </nav>
+
+            <div class="footer__social">
+                <a href="https://facebook.com" class="footer__social-link" aria-label="Follow us on Facebook">
+                    <svg width="10" height="18" viewBox="0 0 10 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M8.48602 9.74946L8.95709 6.61267H6.01255V4.57708C6.01255 3.71908 6.42373 2.88221 7.7426 2.88221H9.08108V0.211792C9.08108 0.211792 7.8666 0 6.7051 0C4.28037 0 2.6955 1.50258 2.6955 4.22229V6.61321H0V9.75H2.6955V17.3333H6.01255V9.75L8.48602 9.74946Z"
+                            fill="#929292" />
+                    </svg>
+                </a>
+                <a href="https://instagram.com" class="footer__social-link" aria-label="Follow us on Instagram">
+                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M8.57427 5.77655C6.99943 5.77655 5.71425 7.07526 5.71425 8.66667C5.71425 10.2581 6.99943 11.5568 8.57427 11.5568C10.1491 11.5568 11.4343 10.2581 11.4343 8.66667C11.4343 7.07526 10.1491 5.77655 8.57427 5.77655ZM17.1522 8.66667C17.1522 7.46986 17.1629 6.28389 17.0964 5.08925C17.0299 3.70165 16.7166 2.47015 15.7125 1.45546C14.7063 0.438607 13.4897 0.124228 12.1166 0.0570163C10.9322 -0.0101958 9.75862 0.000644898 8.57642 0.000644898C7.39207 0.000644898 6.21845 -0.0101958 5.03625 0.0570163C3.6631 0.124228 2.44442 0.440775 1.4403 1.45546C0.43404 2.47231 0.122935 3.70165 0.0564225 5.08925C-0.0100896 6.28606 0.000638182 7.47203 0.000638182 8.66667C0.000638182 9.86131 -0.0100896 11.0494 0.0564225 12.2441C0.122935 13.6317 0.436186 14.8632 1.4403 15.8779C2.44657 16.8947 3.6631 17.2091 5.03625 17.2763C6.2206 17.3435 7.39422 17.3327 8.57642 17.3327C9.76076 17.3327 10.9344 17.3435 12.1166 17.2763C13.4897 17.2091 14.7084 16.8926 15.7125 15.8779C16.7188 14.861 17.0299 13.6317 17.0964 12.2441C17.1651 11.0494 17.1522 9.86348 17.1522 8.66667ZM8.57427 13.1135C6.13907 13.1135 4.17374 11.1275 4.17374 8.66667C4.17374 6.20584 6.13907 4.21983 8.57427 4.21983C11.0095 4.21983 12.9748 6.20584 12.9748 8.66667C12.9748 11.1275 11.0095 13.1135 8.57427 13.1135ZM13.155 5.07624C12.5865 5.07624 12.1273 4.61226 12.1273 4.03771C12.1273 3.46315 12.5865 2.99917 13.155 2.99917C13.7236 2.99917 14.1827 3.46315 14.1827 4.03771C14.1829 4.17414 14.1565 4.30926 14.1049 4.43534C14.0533 4.56142 13.9776 4.67597 13.8821 4.77244C13.7866 4.86891 13.6733 4.94541 13.5485 4.99754C13.4238 5.04967 13.29 5.07641 13.155 5.07624Z"
+                            fill="#929292" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+
+        <div class="footer__divider"></div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="/js/script.js" defer></script>
+</body>
+
+</html>
