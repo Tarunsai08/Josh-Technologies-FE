@@ -15,11 +15,12 @@
 
 .popular__items {
     position: relative;
-    left: 9%;
     display: flex;
     width: 100%;
     transition: transform 1s ease-in-out;
     gap: 45px;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 .card {
@@ -36,6 +37,7 @@
     top: 40%;
     scale: 0.7;
     transform: translateY(-50%);
+    z-index: 1;
     cursor: pointer;
     transition: opacity 0.3s ease, transform 0.3s ease;
 }
@@ -83,4 +85,90 @@
 
 .popular__request-btn:hover {
     background-color: #059669;
+}
+
+@media screen and (max-width: 1200px) {
+    .popular {
+        max-width: 90%;
+    }
+
+    .popular__items {
+        left: 0;
+        gap: 30px;
+    }
+
+    .card {
+        min-width: 250px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .popular__title {
+        font-size: 36px;
+        margin-bottom: 30px;
+    }
+
+    .popular__items {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        scroll-behavior: smooth;
+        padding: 20px 0;
+    }
+
+    #prev,
+    #next {
+        display: none; /* Hide navigation arrows on smaller screens */
+    }
+
+    .circle {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .popular {
+        max-width: 95%;
+        padding: 15px;
+    }
+
+    .popular__title {
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+
+    .card {
+        min-width: 220px;
+    }
+
+    .popular__request-btn {
+        margin: 50px auto;
+        padding: 12px 40px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .popular__title {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .popular__items {
+        gap: 20px;
+    }
+
+    .card {
+        min-width: 200px;
+    }
+
+    .circle {
+        width: 80px;
+        height: 80px;
+    }
+
+    .popular__request-btn {
+        margin: 40px auto;
+        padding: 10px 30px;
+    }
 }
