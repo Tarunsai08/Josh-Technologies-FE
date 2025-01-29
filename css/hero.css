@@ -67,6 +67,7 @@ pre {
     height: auto;
     padding-top: 7.5%;
     padding-right: 1%;
+    overflow-x: hidden;
 }
 
 /* Keep your existing styles and add these media queries */
