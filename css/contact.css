@@ -39,37 +39,36 @@ form {
     padding-top: 15px;
 }
 
-.contact__form-group{
-    flex: 1;
+.contact__form-flex {
+    display: flex;
+    gap: 20px;
     width: 100%;
 }
 
-.contact input {
-    width: 85%;
-    padding: 20px 20px;
+.contact__form-group {
+    flex: 1; 
+    width: 100%;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;  /* Ensure full width within their container */
+    max-width: none; /* Remove any restrictive max-width */
+    padding: 20px;
     border: 1px solid #d1d5db;
-    border-radius: 0.375rem;
+    border-radius: 12px;
     font-size: 1rem;
     outline: none;
     transition: border-color 0.3s;
-}
-
-.contact input:focus {
-    border-color: #10b981;
+    box-sizing: border-box; /* Ensures padding doesn't affect width */
 }
 
 .contact textarea {
-    width: 91%;
-    padding: 24px 15px;
-    border: 1px solid #d1d5db;
-    border-radius: 0.375rem;
-    font-size: 1rem;
+    height: 145px;
     resize: none;
-    outline: none;
-    height: 115px;
-    margin-bottom: 1rem;
-    transition: border-color 0.3s;
+    margin-top: 10px;
 }
+
 
 .contact textarea:focus {
     border-color: #10b981;
@@ -98,3 +97,73 @@ form {
     align-items: center;
 }
 
+/* Tablets (Max-width: 1024px) */
+@media (max-width: 1024px) {
+    .contact__container {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        gap: 1.5rem;
+    }
+
+    .contact__form {
+        width: 100%;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .contact__form-flex {
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+    }
+
+    .contact input,
+    .contact textarea {
+        width: 100%;
+    }
+
+    .contact__image {
+        justify-content: center;
+    }
+}
+
+/* Mobile Devices (Max-width: 768px) */
+@media (max-width: 768px) {
+    .contact {
+        padding: 3rem 1rem;
+    }
+
+    .contact__title {
+        font-size: 20px;
+    }
+
+    .contact__subtitle {
+        font-size: 12px;
+    }
+
+    .contact__submit {
+        width: 100%;
+        padding: 18px;
+    }
+}
+
+/* Small Mobile Screens (Max-width: 480px) */
+@media (max-width: 480px) {
+    .contact {
+        padding: 2.5rem 0.8rem;
+    }
+
+    .contact__title {
+        font-size: 18px;
+    }
+
+    .contact__subtitle {
+        font-size: 10px;
+    }
+
+    .contact__submit {
+        font-size: 14px;
+        padding: 15px;
+    }
+}

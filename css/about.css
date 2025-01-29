@@ -77,3 +77,99 @@ video {
 .about__video-play:focus {
     outline: none;
 }
+
+/* Adjustments for Tablets (Max-width: 1024px) */
+@media (max-width: 1024px) {
+    .about {
+        height: 100vh;
+        padding-bottom: 50px;
+    }
+
+    .about__title {
+        font-size: 36px;
+    }
+
+    .about__description {
+        font-size: 16px;
+    }
+
+    .about__top {
+        padding: 15px;
+    }
+
+    .about__bottom {
+        padding: 15px;
+    }
+
+    .about__video {
+        top: 40%;
+        left: 15%;
+        max-width: 70vw;
+    }
+
+    .about__video-play {
+        font-size: 40px;
+        width: 60px;
+        height: 60px;
+    }
+}
+
+/* Adjustments for Mobile Screens (Max-width: 768px) */
+@media (max-width: 768px) {
+    .about {
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+        padding: 30px 15px;
+    }
+
+    .about__title {
+        font-size: 28px;
+        margin-top: 10px;
+    }
+
+    .about__description {
+        font-size: 14px;
+        margin-top: 5px;
+    }
+
+    .about__top {
+        padding: 10px;
+    }
+
+    .about__bottom {
+        padding: 10px;
+    }
+
+    .about__video {
+        position: relative;
+        top: unset;
+        left: unset;
+        width: 100%;
+        max-width: 90vw;
+        margin: 20px auto;
+    }
+
+    .about__video-play {
+        font-size: 35px;
+        width: 50px;
+        height: 50px;
+    }
+}
+
+/* Adjustments for Small Mobile Screens (Max-width: 480px) */
+@media (max-width: 480px) {
+    .about__title {
+        font-size: 24px;
+    }
+
+    .about__description {
+        font-size: 12px;
+    }
+
+    .about__video-play {
+        font-size: 30px;
+        width: 45px;
+        height: 45px;
+    }
+}

@@ -68,3 +68,97 @@ pre {
     padding-top: 7.5%;
     padding-right: 1%;
 }
+
+/* Keep your existing styles and add these media queries */
+
+/* Tablet Styles */
+@media screen and (max-width: 1024px) {
+    .hero__content {
+        max-width: 55%;
+    }
+ 
+    .hero__title {
+        font-size: 54px;
+        margin-top: -60px;
+    }
+ 
+    .hero__image {
+        max-width: 40%;
+        padding-top: 10%;
+    }
+ 
+    .hero__search {
+        width: 22em;
+    }
+ }
+ 
+ /* Medium Mobile */
+ @media screen and (max-width: 768px) {
+    .hero {
+        padding: 8% 5%;
+        flex-direction: column;
+        text-align: center;
+    }
+ 
+    .hero__content {
+        max-width: 100%;
+        text-align: center;
+        order: 2;
+    }
+ 
+    .hero__title {
+        font-size: 42px;
+        max-width: 100%;
+        margin-top: 20px;
+    }
+ 
+    .hero__search {
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+ 
+    .hero__image {
+        max-width: 80%;
+        padding-top: 0;
+        padding-right: 0;
+        order: 1;
+    }
+ }
+ 
+ /* Small Mobile */
+ @media screen and (max-width: 480px) {
+    .hero {
+        padding: 10% 5%;
+    }
+ 
+    .hero__title {
+        font-size: 32px;
+    }
+ 
+    .hero pre {
+        font-size: 12px;
+        margin-bottom: 30px;
+    }
+ 
+    .hero__search {
+        flex-direction: column;
+        gap: 10px;
+        background-color: transparent;
+        border-radius: 0;
+    }
+ 
+    .hero__search-input {
+        padding: 15px;
+        border-radius: 10px;
+    }
+ 
+    .hero__search-btn {
+        padding: 15px;
+        border-radius: 10px;
+    }
+ 
+    .hero__image {
+        max-width: 90%;
+    }
+ }

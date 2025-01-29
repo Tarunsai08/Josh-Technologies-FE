@@ -75,3 +75,91 @@
 .dialog.show{
     display: flex;
 }
+
+/* Tablets (Max-width: 1024px) */
+@media (max-width: 1024px) {
+    .dialog__content {
+        width: 80vw;
+        height: 60vh;
+        padding: 4%;
+    }
+
+    .dialog__title {
+        font-size: 32px;
+    }
+
+    .dialog__form-group input {
+        padding: 12px;
+    }
+
+    .dialog__actions {
+        margin-top: 8vh;
+        flex-direction: row;
+    }
+
+    .dialog__cancel, .dialog__submit {
+        width: 30%;
+        padding: 15px 30px;
+    }
+}
+
+/* Mobile Devices (Max-width: 768px) */
+@media (max-width: 768px) {
+    .dialog__content {
+        width: 90vw;
+        height: auto;
+        padding: 6%;
+    }
+
+    .dialog__title {
+        font-size: 28px;
+    }
+
+    .dialog__form-group {
+        font-size: 14px;
+    }
+
+    .dialog__form-group input {
+        padding: 10px;
+    }
+
+    .dialog__actions {
+        flex-direction: column;
+        margin-top: 6vh;
+    }
+
+    .dialog__cancel, .dialog__submit {
+        width: 100%;
+        padding: 12px 0;
+        font-size: 16px;
+    }
+}
+
+/* Small Mobile Screens (Max-width: 480px) */
+@media (max-width: 480px) {
+    .dialog__content {
+        width: 95vw;
+        padding: 8%;
+    }
+
+    .dialog__title {
+        font-size: 24px;
+    }
+
+    .dialog__form-group {
+        font-size: 12px;
+    }
+
+    .dialog__form-group input {
+        padding: 8px;
+    }
+
+    .dialog__actions {
+        margin-top: 4vh;
+    }
+
+    .dialog__cancel, .dialog__submit {
+        font-size: 14px;
+        padding: 10px 0;
+    }
+}

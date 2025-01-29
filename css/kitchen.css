@@ -132,3 +132,143 @@
     font-size: 32px;
     font-weight: bolder;
 }
+
+/* Adjustments for Tablets (Max-width: 1024px) */
+@media (max-width: 1024px) {
+    .kitchen {
+        padding: 4%;
+    }
+
+    .kitchen__title {
+        margin-left: 30px;
+        font-size: 32px;
+    }
+
+    #kitchen-items {
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .food-item {
+        flex-basis: calc(33.33% - 10px);
+        margin-bottom: 30px;
+    }
+
+    .item-image {
+        height: 220px;
+    }
+
+    .item-details {
+        padding: 8px 12px;
+    }
+
+    .item-details .name,
+    .item-price {
+        font-size: 14px;
+    }
+}
+
+/* Adjustments for Mobile Screens (Max-width: 768px) */
+@media (max-width: 768px) {
+    .kitchen {
+        padding: 3%;
+    }
+
+    .kitchen__title {
+        margin-left: 20px;
+        font-size: 28px;
+    }
+
+    #kitchen-items {
+        gap: 10px;
+    }
+
+    .food-item {
+        flex-basis: calc(50% - 8px);
+        margin-bottom: 25px;
+    }
+
+    .item-image {
+        height: 200px;
+    }
+
+    .item-details {
+        padding: 6px 10px;
+    }
+
+    .item-details .name {
+        font-size: 14px;
+    }
+
+    .item-price {
+        font-size: 14px;
+    }
+
+    .item-rating {
+        font-size: 11px;
+    }
+
+    .discount {
+        font-size: 10px;
+        padding: 8px 5px;
+    }
+}
+
+/* Adjustments for Small Mobile Screens (Max-width: 480px) */
+@media (max-width: 480px) {
+    .kitchen {
+        padding: 5%;
+    }
+
+    .kitchen__title {
+        margin-left: 10px;
+        font-size: 24px;
+        text-align: center;
+    }
+
+    #kitchen-items {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .food-item {
+        flex-basis: 100%;
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .item-image {
+        height: 180px;
+    }
+
+    .item-details {
+        padding: 5px 8px;
+    }
+
+    .item-details .name {
+        font-size: 13px;
+    }
+
+    .item-price {
+        font-size: 13px;
+    }
+
+    .item-rating {
+        font-size: 10px;
+    }
+
+    .discount {
+        font-size: 9px;
+        padding: 6px 4px;
+    }
+
+    #delivery-time {
+        font-size: 10px;
+        padding: 3px 5px;
+    }
+
+    #add-btn {
+        font-size: 28px;
+        padding: 6px 12px;
+    }
+}
