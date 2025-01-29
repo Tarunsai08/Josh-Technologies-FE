@@ -85,6 +85,7 @@ pre {
     .hero__image {
         max-width: 40%;
         padding-top: 10%;
+        scale: 0.8;
     }
  
     .hero__search {
@@ -123,6 +124,7 @@ pre {
         padding-top: 0;
         padding-right: 0;
         order: 1;
+        scale: 0.6;
     }
  }
  
@@ -160,5 +162,6 @@ pre {
  
     .hero__image {
         max-width: 90%;
+        scale: 0.5;
     }
  }
