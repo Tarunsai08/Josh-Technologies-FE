@@ -95,6 +95,7 @@ form {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    overflow-x : hidden;
 }
 
 /* Tablets (Max-width: 1024px) */
