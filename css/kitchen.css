@@ -1,0 +1,134 @@
+.kitchen {
+    padding: 5%;
+    padding-bottom: 0px;
+    background-color: #F7F8FA;
+    color: black;
+}
+
+.kitchen__title {
+    margin-top: 20px;
+    margin-left: 55px;
+    font-size: 37px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+#kitchen-items {
+    padding: 4%;
+    padding-top: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0px;
+}
+
+.food-item {
+    flex-basis: calc(25% - 20px);
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 45px;
+}
+
+@media (max-width: 1024px) {
+    .food-item {
+        flex-basis: calc(33.33% - 11px);
+    }
+}
+
+@media (max-width: 768px) {
+    .food-item {
+        flex-basis: calc(50% - 8px);
+    }
+}
+
+@media (max-width: 480px) {
+    .food-item {
+        flex-basis: 100%;
+    }
+}
+
+.discount {
+    background-color: #F3BA00;
+    font-size: 11px;
+    padding: 10px 6px;
+    position: absolute;
+    border-radius: 5px;
+    left: 0px;
+    top: 0px;
+}
+
+.item-image {
+    height: 260px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.item-details {
+    padding: 5px 16px;
+    padding-bottom: 5px;
+}
+
+.item-details .name {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.item-details div {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 6px;
+}
+
+.item-price {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.item-rating {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: #333;
+    letter-spacing: 1x;
+    gap: 5px;
+}
+
+.item-rating span {
+    background: #f0f0f0;
+    color: #333;
+    padding: 2px 6px;
+    border-radius: 8px;
+}
+
+#delivery-time {
+    background: #F7F8FA;
+    border-left: 4px solid #bebebe;
+    border-right: 4px solid #bebebe;
+    border-radius: 8px;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    padding: 4px 6px;
+}
+
+.item-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#add-btn {
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 32px;
+    font-weight: bolder;
+}

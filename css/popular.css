@@ -1,0 +1,86 @@
+.popular {
+    background-color: #F7F8FA;
+    position: relative;
+    padding: 20px;
+    max-width: 79%;
+    margin: 0 auto;
+}
+
+.popular__title {
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 37px;
+}
+
+.popular__items {
+    position: relative;
+    left: 9%;
+    display: flex;
+    width: 100%;
+    transition: transform 1s ease-in-out;
+    gap: 45px;
+}
+
+.card {
+    min-width: 284px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+#prev,
+#next {
+    position: absolute;
+    top: 40%;
+    scale: 0.7;
+    transform: translateY(-50%);
+    cursor: pointer;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+#prev {
+    left: -20px;
+}
+
+#next {
+    right: -20px;
+}
+
+.circle {
+    width: 120px;
+    height: 120px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.circle:hover .hollow {
+    fill: #1AC073;
+    /* Green fill for the hollow area */
+}
+
+.circle:hover .play {
+    fill: white;
+    /* White play button */
+}
+
+.play {
+    border-radius: 10px;
+}
+
+.popular__request-btn {
+    display: block;
+    margin: 85px auto;
+    padding: 15px 53px;
+    background-color: #1AC073;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.popular__request-btn:hover {
+    background-color: #059669;
+}
