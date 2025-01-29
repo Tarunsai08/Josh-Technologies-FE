@@ -5,7 +5,7 @@
     "rating": 4.7,
     "delivery_time": "50-79 min",
     "discount": "50%",
-    "image_url": "/assets/images/pizza1.png",
+    "image_url": "assets/images/pizza1.png",
     "add_button": true
   },
   {
@@ -14,7 +14,7 @@
     "rating": 4.7,
     "delivery_time": "50-79 min",
     "discount": "",
-    "image_url": "/assets/images/pizza2.png",
+    "image_url": "assets/images/pizza2.png",
     "add_button": true
   },
   {
@@ -23,7 +23,7 @@
     "rating": 4.7,
     "delivery_time": "50-79 min",
     "discount": "20%",
-    "image_url": "/assets/images/pizza3.png",
+    "image_url": "assets/images/pizza3.png",
     "add_button": true
   },
   {
@@ -32,7 +32,7 @@
     "rating": 4.7,
     "delivery_time": "50-79 min",
     "discount": "",
-    "image_url": "/assets/images/pizza4.png",
+    "image_url": "assets/images/pizza4.png",
     "add_button": true
   },
   {
@@ -41,7 +41,7 @@
     "rating": 4.7,
     "delivery_time": "50-79 min",
     "discount": "50%",
-    "image_url": "/assets/images/pizza5.png",
+    "image_url": "assets/images/pizza5.png",
     "add_button": true
   },
   {
@@ -50,7 +50,7 @@
     "rating": 4.7,
     "delivery_time": "50-79 min",
     "discount": "",
-    "image_url": "/assets/images/pizza6.png",
+    "image_url": "assets/images/pizza6.png",
     "add_button": true
   },
   {
@@ -59,7 +59,7 @@
     "rating": 4.7,
     "delivery_time": "50-79 min",
     "discount": "20%",
-    "image_url": "/assets/images/pizza7.png",
+    "image_url": "assets/images/pizza7.png",
     "add_button": true
   },
   {
@@ -68,7 +68,7 @@
     "rating": 4.7,
     "delivery_time": "50-79 min",
     "discount": "50%",
-    "image_url": "/assets/images/pizza8.png",
+    "image_url": "assets/images/pizza8.png",
     "add_button": true
   },
   {
@@ -77,7 +77,7 @@
     "rating": 4.7,
     "delivery_time": "50-79 min",
     "discount": "50%",
-    "image_url": "/assets/images/pizza1.png",
+    "image_url": "assets/images/pizza1.png",
     "add_button": true
   },
   {
@@ -86,7 +86,7 @@
     "rating": 4.7,
     "delivery_time": "50-79 min",
     "discount": "",
-    "image_url": "/assets/images/pizza2.png",
+    "image_url": "assets/images/pizza2.png",
     "add_button": true
   },
   {
@@ -95,7 +95,7 @@
     "rating": 4.7,
     "delivery_time": "50-79 min",
     "discount": "20%",
-    "image_url": "/assets/images/pizza3.png",
+    "image_url": "assets/images/pizza3.png",
     "add_button": true
   },
   {
@@ -104,7 +104,7 @@
     "rating": 4.7,
     "delivery_time": "50-79 min",
     "discount": "",
-    "image_url": "/assets/images/pizza4.png",
+    "image_url": "assets/images/pizza4.png",
     "add_button": true
   }
 ]
