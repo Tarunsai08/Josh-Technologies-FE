@@ -5,8 +5,8 @@ const CONFIG = {
       itemsPerPage: 3
     },
     endpoints: {
-      kitchenData: '../data/kitchen_data.json',
-      popularItems: '../data/popular_items.json'
+      kitchenData: './data/kitchen_data.json',
+      popularItems: './data/popular_items.json'
     }
   };
   
