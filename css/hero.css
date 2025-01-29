@@ -67,7 +67,6 @@ pre {
     height: auto;
     padding-top: 7.5%;
     padding-right: 1%;
-    overflow-x: hidden;
 }
 
 /* Keep your existing styles and add these media queries */
@@ -125,7 +124,7 @@ pre {
         padding-top: 0;
         padding-right: 0;
         order: 1;
-        scale: 0.6;
+        scale: 0.7;
     }
  }
  
@@ -163,6 +162,6 @@ pre {
  
     .hero__image {
         max-width: 90%;
-        scale: 0.5;
+        scale: 0.7;
     }
  }
